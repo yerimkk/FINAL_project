@@ -80,7 +80,8 @@
     - 최적 파라미터 : class_weight = {1.0: 1, -1.0: 3, 0.0: 7}
 - 감성사전을 활용했을 때보다 성능이 전반적으로 좋아졌지만 중립 클래스의 성능이 여전히 좋지 않음
 <p align="center">
-<img src="https://github.com/user-attachments/assets/6907bc69-f0c4-40c2-bb12-b36198eb5628" width="600" height="225">
+<img src="https://github.com/user-attachments/assets/94d1533f-1fbb-47e3-8949-ca8532fa7c3c" width="600" height="225">
+
 
 **Logistic Regression Classification Report**
 <p align="center">
@@ -96,7 +97,8 @@
 - 최적 모델로 Auto Train Set에 대해 Fine Tuning 후 Test Set 예측
 - 감성사전, TF/IDF를 이용한 감성 분석보다 좋은 성능을 보여줌
 <p align="center">
-<img src="https://github.com/user-attachments/assets/38aec6f5-3b57-4a9f-a590-55932d188df0" width="600" height="225">
+<img src="https://github.com/user-attachments/assets/18aeb0ea-1d22-44e8-ab17-d8eb229d7b9f" width="600" height="225">
+
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/8ec6a155-e5d1-4686-9fa4-da8a6cec558d" alt="kobert_score">
