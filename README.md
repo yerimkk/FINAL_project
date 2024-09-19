@@ -56,7 +56,8 @@
 - 감성사전을 활용하여 Test Set에 대해 감성 분석 진행
 - 긍정, 부정 리뷰도 중립으로 분류하는 경향
 ![image](https://github.com/user-attachments/assets/508924a3-0037-4348-9090-894f97c9c74a)
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4624b43e-7f6d-41f9-87ce-569ebe6e1301/fe37dd2b-a39b-4e6f-8bc7-1b4d9da300aa/image.png)
+![감성사전_score](https://github.com/user-attachments/assets/4c5f47fe-601a-4852-b536-051c7da00c47)
+
 
 2. TF/IDF
 
@@ -68,6 +69,6 @@
 - 최적 모델로 Auto Train Set에 대해 Fine Tuning 후 Test Set 예측
 - 감성사전, TF/IDF를 이용한 감성 분석보다 좋은 성능을 보여줌
 ![image](https://github.com/user-attachments/assets/38aec6f5-3b57-4a9f-a590-55932d188df0)
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4624b43e-7f6d-41f9-87ce-569ebe6e1301/cf61c657-1a7f-4b52-b268-23aa9cd5880e/image.png)
+![kobert_score](https://github.com/user-attachments/assets/8ec6a155-e5d1-4686-9fa4-da8a6cec558d)
 
 
