@@ -7,9 +7,7 @@
 2. 수행기간: 2024.08.19 ~ 2024.09.09
 
 ## 프로젝트 진행 순서
-![Blank diagram](https://github.com/user-attachments/assets/05b9146e-5d46-4568-8f2a-d170156b1cc1)
-
-
+![Blank diagram (1)](https://github.com/user-attachments/assets/e0d0a9a1-8096-4d3e-b3dc-f12028352473)
 
 ## 주제 소개 및 선정 배경
 
