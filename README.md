@@ -55,10 +55,12 @@
 - 형태소 및 품사에 대한 극성을 모두 고려하여 긍정, 부정, 중립으로 감성사전 편찬
 - 감성사전을 활용하여 Test Set에 대해 감성 분석 진행
 - 긍정, 부정 리뷰도 중립으로 분류하는 경향
+<p align="center">
 <img src="https://github.com/user-attachments/assets/508924a3-0037-4348-9090-894f97c9c74a" width="600" height="225">
 
-
-![감성사전_score](https://github.com/user-attachments/assets/4c5f47fe-601a-4852-b536-051c7da00c47)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4c5f47fe-601a-4852-b536-051c7da00c47" alt="감성사전_score">
+</p>
 
 
 2. TF/IDF
@@ -66,11 +68,13 @@
 - 최적 파라미터를 적용한 Logistic Regression의 성능이 가장 우수함
     - 최적 파라미터 : class_weight = {1.0: 1, -1.0: 3, 0.0: 7}
 - 감성사전을 활용했을 때보다 성능이 전반적으로 좋아졌지만 중립 클래스의 성능이 여전히 좋지 않음
+<p align="center">
 <img src="https://github.com/user-attachments/assets/6907bc69-f0c4-40c2-bb12-b36198eb5628" width="600" height="225">
 
 **Logistic Regression Classification Report**
-
-![tfidf_score](https://github.com/user-attachments/assets/8602c0e3-7205-45a5-926f-039762d67d80)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8602c0e3-7205-45a5-926f-039762d67d80" alt="tfidf_score">
+</p>
 
 
 3. KoBERT
@@ -80,9 +84,12 @@
     - 최적 파라미터: learning rate=0.00002, batch size = 8, num_epochs=4, weight_decay =1
 - 최적 모델로 Auto Train Set에 대해 Fine Tuning 후 Test Set 예측
 - 감성사전, TF/IDF를 이용한 감성 분석보다 좋은 성능을 보여줌
+<p align="center">
 <img src="https://github.com/user-attachments/assets/38aec6f5-3b57-4a9f-a590-55932d188df0" width="600" height="225">
 
-![kobert_score](https://github.com/user-attachments/assets/8ec6a155-e5d1-4686-9fa4-da8a6cec558d)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8ec6a155-e5d1-4686-9fa4-da8a6cec558d" alt="kobert_score">
+</p>
 
 ## LDA 토픽 모델링
 
@@ -92,18 +99,48 @@
 - 부정적인 리뷰: 부정적인 리뷰만 따로 추출하여 분석
 
 1. 스픽
-![image](https://github.com/user-attachments/assets/bff7cba0-4768-4248-978d-ee0a4139f37f)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bff7cba0-4768-4248-978d-ee0a4139f37f" alt="image1" width="800">
+</p>
 - 전체 리뷰: 유저들은 결제 및 서비스와 관련된 경험을 가장 많이 언급, 학습 과정과 경험에 대한  피드백도 자주 등장
 - 부정적인 리뷰: 유저들 대부분이 음성 인식, 결제 및 구독, 오류 및 사용자 경험에 대한 불만을 주로 언급
 
 2. 말해보카
-![image](https://github.com/user-attachments/assets/f5601167-8398-40aa-9fa5-7a5c4b9b2591)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f5601167-8398-40aa-9fa5-7a5c4b9b2591" alt="image2" width="800">
+</p>
 - 전체 리뷰: 유저들이 어휘 학습과 관련된 내용을 가장 많이 언급, 학습 경험에 대한 긍정적인 평가가 있었지만 결제 및 서비스 관련 부정 피드백도 자주 등장
 - 부정적인 리뷰: 어휘 학습과 관련된 피드백이 가장 많이 등장, 그 중 음성인식에 대한 문제가 많이 등장. 결제 이슈와 서비스 이용과 가격의 문제도 자주 등장
 
 3. 스픽 & 말해보카 공통 불만
-- (1) 음성 인식 오류 및 학습 기능
-- (2) 결제/환불 과정
-- (3) 광고 및 유료 서비스
+<div align="center">
+    
+| 공통 불만 |
+|:---:|
+| (1) 음성 인식 오류 및 학습 기능 |
+| (2) 결제/환불 과정 |
+| (3) 광고 및 유료 서비스 |
 
+</div>
 
+## 비즈니스 효과
+
+감성 분석과 토픽 모델링을 함께 사용함으로써 사용자들이 어떤 부분에서 만족하고,
+불만을 느꼈는지 빠르게 확인 및 조치할 수 있음
+
+1. 긍정적 피드백 분석의 효과
+- 사람들이 긍정적으로 평가한 기능 및 요소를 강화 가능
+- 긍정적 피드백을 마케팅 진행 시 강조할 수 있음
+1. 부정적 피드백 분석의 효과
+- 사용자들이 반복적으로 언급하는 문제에 대해 제품 개선점 파악 ⇒ 고객 이탈 방지
+- 새로운 기능 추가 가능 ⇒ 신규 고객 확보
+
+## 추후 발전 방안
+
+- 목표: 데이터 파이프라인 및 대시보드 구축
+1. **데이터 파이프라인 구축**
+- 실시간으로 고객 리뷰를 크롤링하여 DB에 적재
+- 성과가 가장 좋은 KoBERT 모델을 이용하여 실시간으로 리뷰를 감성 분석
+1. **대시보드 구축**
+- 고객 리뷰를 실시간으로 감성 분석, 토픽별 구분
+- 대시보드에 즉각 반영 -> 시각화
