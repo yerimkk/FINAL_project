@@ -1,4 +1,14 @@
 # FINAL_project
+## Introduction
+언어 교육 어플리케이션 리뷰(VoC) 분석 (스픽 vs. 말해보카)
+
+## 프로젝트 개요
+1. 팀원: 강민지, 김예림, 김이영
+2. 수행기간: 2024.08.19 ~ 2024.09.09
+
+## 프로젝트 진행 순서
+![image](https://github.com/user-attachments/assets/0ef727f6-1611-401f-abd9-754c8c9ee327)
+
 
 ## 주제 소개 및 선정 배경
 
