@@ -143,7 +143,7 @@
 
 ## EDA
 <스픽>
-![스크린샷 2024-09-19 132525](https://github.com/user-attachments/assets/85759a6b-0b31-4210-9036-a03c470da4b8)
+![스크린샷 2024-09-19 132525](https://github.com/user-attachments/assets/289c1fd9-51e2-46df-b95c-44d3f4a64998)
 ![스크린샷 2024-09-19 133329](https://github.com/user-attachments/assets/bf0beffb-1371-49d8-9099-d9946fff073b)
 ![스크린샷 2024-09-19 133439](https://github.com/user-attachments/assets/d8707c05-6ffc-4aec-897f-0dbec7db4efb)
 ![스크린샷 2024-09-19 133611](https://github.com/user-attachments/assets/e7e6d968-1177-483c-aa40-e6a84f6a916a)
