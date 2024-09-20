@@ -141,6 +141,21 @@
 
 </div>
 
+## EDA
+<스픽>
+![스크린샷 2024-09-19 132525](https://github.com/user-attachments/assets/85759a6b-0b31-4210-9036-a03c470da4b8)
+![스크린샷 2024-09-19 133329](https://github.com/user-attachments/assets/bf0beffb-1371-49d8-9099-d9946fff073b)
+![스크린샷 2024-09-19 133439](https://github.com/user-attachments/assets/d8707c05-6ffc-4aec-897f-0dbec7db4efb)
+![스크린샷 2024-09-19 133611](https://github.com/user-attachments/assets/e7e6d968-1177-483c-aa40-e6a84f6a916a)
+
+<말해보카>
+![스크린샷 2024-09-19 134112](https://github.com/user-attachments/assets/0fff9b72-bef7-4153-bf51-754d3994693f)
+![스크린샷 2024-09-19 134254](https://github.com/user-attachments/assets/40e9711a-b811-4247-838e-6570166fcd0c)
+![스크린샷 2024-09-19 134347](https://github.com/user-attachments/assets/5b61c42b-bc16-4eff-ab3d-25c0d1861f93)
+![스크린샷 2024-09-19 133857](https://github.com/user-attachments/assets/45fd2453-98c2-4445-b658-df98ce9e1301)
+
+
+
 ## 비즈니스 효과
 
 감성 분석과 토픽 모델링을 함께 사용함으로써 사용자들이 어떤 부분에서 만족하고,
