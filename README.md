@@ -71,8 +71,9 @@
 <img src="https://github.com/user-attachments/assets/508924a3-0037-4348-9090-894f97c9c74a" width="600" height="225">
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4c5f47fe-601a-4852-b536-051c7da00c47" alt="감성사전_score">
+  <img src= "https://github.com/user-attachments/assets/c7d3574b-3157-4631-b9a7-d1e1667455f0" alt="감성사전_score" width="600" height="600">
 </p>
+
 
 
 2. TF/IDF
@@ -157,7 +158,7 @@
 
 <div align="center">
     
-| 점수와 감성 레이블 간 상관관 |
+| 점수와 감성 레이블 간 상관관계 |
 | --- |
 | - 점수가 낮을수록 부정적인 감정을 많이 담고 있음  <br> - 점수가 높을수록 긍정적인 감정을 많이 담고 있음 <br>     = 점수가 높을수록 긍정적인 리뷰가 많고, 점수가 낮을수록 부정적인 리뷰가 많음 |
 
@@ -185,10 +186,40 @@
 
 <말해보카>
 ![스크린샷 2024-09-19 134112](https://github.com/user-attachments/assets/0fff9b72-bef7-4153-bf51-754d3994693f)
-![스크린샷 2024-09-19 134254](https://github.com/user-attachments/assets/40e9711a-b811-4247-838e-6570166fcd0c)
-![스크린샷 2024-09-19 134347](https://github.com/user-attachments/assets/5b61c42b-bc16-4eff-ab3d-25c0d1861f93)
-![스크린샷 2024-09-19 133857](https://github.com/user-attachments/assets/45fd2453-98c2-4445-b658-df98ce9e1301)
+<div align="center">
+    
+| 말해보카 월별 감성 분석 |  상위 10개 앱 버전별 감성 분포 |
+| --- | --- |
+| - 2021년 1월 리뷰수가 가장 많음  <br> - 2021년 1월 한 달 동안 말해보카 대표 캐릭터인 니니의 굿즈 <br> (한정판 양말 담요)를 지급하는 출석 체크 인증 챌린지 | - 1.1 그룹에 가장 많은 리뷰가 있음 <br> - 1.1.48 버전이 리뷰 수가 가장 많고, 긍정적인 리뷰 비율도 높음|
 
+</div>
+
+![스크린샷 2024-09-19 134254](https://github.com/user-attachments/assets/40e9711a-b811-4247-838e-6570166fcd0c)
+<div align="center">
+    
+| 점수와 감성 레이블 간 상관관계 |
+| --- |
+| - 점수가 낮을수록 부정적인 감정을 많이 담고 있음  <br> - 점수가 높을수록 긍정적인 감정을 많이 담고 있음 <br> - 스픽에 비해 3점이 덜 부정적이고, 4점이 더욱 긍정적인 편 |
+
+</div>
+
+![스크린샷 2024-09-19 134347](https://github.com/user-attachments/assets/5b61c42b-bc16-4eff-ab3d-25c0d1861f93)
+<div align="center">
+    
+| 앱 버전별 평균 점수 |  시간에 따른 평균 점수 |
+| --- | --- |
+| - 전반적으로 4점대 중반에서 5점에 가까운 높은 점수를 유지 <br> - 몇 몇 버전에서 점수가 급격히 떨어진 것을 확인 | - 2020년 초 (어플 런칭 초기) 점수가 크게 하락 <br> - 이후 4점대 초반에서 중반을 유지 |
+
+</div>
+
+![스크린샷 2024-09-19 133857](https://github.com/user-attachments/assets/45fd2453-98c2-4445-b658-df98ce9e1301)
+<div align="center">
+    
+| 감성 레이블 평균 리뷰 공감 수 |  점수별 평균 리뷰 공감 수 |
+| --- | --- |
+| - 평균적으로 부정적인 리뷰는 2.5개 이상의 좋아요를 받음  <br> - 스픽보다는 덜한 수준이지만 부정적인 리뷰에 많은 사용자들이 공감함  | - 1점&3점 리뷰가 가장 많은 좋아요를 받음 <br> - 스픽 유저들과 달리, 말해보카 유저들은 비교적 중립적인 <br>  3점 리뷰에도 공감하는 편 |
+
+</div>
 
 
 ## 비즈니스 효과
